@@ -1,0 +1,37 @@
+{
+  "name": "looping-swiper",
+  "version": "1.0.0",
+  "description": "A circular, draggable, responsive swiper component for React + Next.js + TailwindCSS",
+  "author": "MD. Rukon Uddin",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.15",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "swiper",
+    "tailwind",
+    "loop",
+    "circular"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rukonpro/looping-swiper.git"
+  }
+}
