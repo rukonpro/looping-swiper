@@ -1,0 +1,12 @@
+/* Theme: Lavender */
+[data-swiper-theme="lavender"] {
+  --ls-bg: #f5f3ff;
+  --ls-border-radius: 16px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(139, 92, 246, 0.2);
+  --ls-nav-bg-hover: rgba(139, 92, 246, 0.4);
+  --ls-nav-color: #7c3aed;
+  --ls-dot-bg: rgba(139, 92, 246, 0.2);
+  --ls-dot-bg-hover: rgba(139, 92, 246, 0.35);
+  --ls-dot-bg-active: #8b5cf6;
+}

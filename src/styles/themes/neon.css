@@ -1,0 +1,19 @@
+/* Theme: Neon */
+[data-swiper-theme="neon"] {
+  --ls-bg: #000000;
+  --ls-border-radius: 0;
+  --ls-padding: 12px;
+  --ls-border: 1px solid #22ff44;
+  --ls-shadow: 0 0 20px rgba(34, 255, 68, 0.15);
+  --ls-nav-bg: rgba(34, 255, 68, 0.15);
+  --ls-nav-bg-hover: rgba(34, 255, 68, 0.35);
+  --ls-nav-color: #22ff44;
+  --ls-nav-border: 1px solid #22ff44;
+  --ls-nav-shadow: 0 0 10px rgba(34, 255, 68, 0.4);
+  --ls-nav-border-radius: 4px;
+  --ls-dot-bg: rgba(34, 255, 68, 0.2);
+  --ls-dot-bg-hover: rgba(34, 255, 68, 0.5);
+  --ls-dot-bg-active: #22ff44;
+  --ls-dot-shadow: 0 0 8px rgba(34, 255, 68, 0.6);
+  --ls-dot-border-radius: 2px;
+}

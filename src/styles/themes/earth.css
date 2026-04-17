@@ -1,0 +1,14 @@
+/* Theme: Earth */
+[data-swiper-theme="earth"] {
+  --ls-bg: #f5f0eb;
+  --ls-border-radius: 8px;
+  --ls-padding: 12px;
+  --ls-border: 1px solid #d6cfc7;
+  --ls-nav-bg: #c2410c;
+  --ls-nav-bg-hover: #9a3412;
+  --ls-nav-color: #fff7ed;
+  --ls-nav-border-radius: 6px;
+  --ls-dot-bg: #d6d3d1;
+  --ls-dot-bg-hover: #a8a29e;
+  --ls-dot-bg-active: #c2410c;
+}

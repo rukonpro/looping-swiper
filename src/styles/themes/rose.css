@@ -1,0 +1,12 @@
+/* Theme: Rose */
+[data-swiper-theme="rose"] {
+  --ls-bg: #fff1f2;
+  --ls-border-radius: 16px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(244, 63, 94, 0.2);
+  --ls-nav-bg-hover: rgba(244, 63, 94, 0.4);
+  --ls-nav-color: #e11d48;
+  --ls-dot-bg: rgba(244, 63, 94, 0.2);
+  --ls-dot-bg-hover: rgba(244, 63, 94, 0.35);
+  --ls-dot-bg-active: #f43f5e;
+}

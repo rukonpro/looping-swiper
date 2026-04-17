@@ -1,0 +1,12 @@
+/* Theme: Forest */
+[data-swiper-theme="forest"] {
+  --ls-bg: #064e3b;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(16, 185, 129, 0.25);
+  --ls-nav-bg-hover: rgba(16, 185, 129, 0.45);
+  --ls-nav-color: #a7f3d0;
+  --ls-dot-bg: rgba(16, 185, 129, 0.2);
+  --ls-dot-bg-hover: rgba(16, 185, 129, 0.4);
+  --ls-dot-bg-active: #10b981;
+}

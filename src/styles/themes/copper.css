@@ -1,0 +1,15 @@
+/* Theme: Copper */
+[data-swiper-theme="copper"] {
+  --ls-bg: #1c1917;
+  --ls-border-radius: 8px;
+  --ls-padding: 12px;
+  --ls-border: 1px solid #78350f;
+  --ls-nav-bg: rgba(180, 83, 9, 0.35);
+  --ls-nav-bg-hover: rgba(180, 83, 9, 0.6);
+  --ls-nav-color: #fde68a;
+  --ls-nav-border-radius: 6px;
+  --ls-dot-bg: rgba(180, 83, 9, 0.3);
+  --ls-dot-bg-hover: rgba(180, 83, 9, 0.55);
+  --ls-dot-bg-active: #b45309;
+  --ls-dot-shadow: 0 0 6px rgba(180, 83, 9, 0.4);
+}

@@ -1,0 +1,12 @@
+/* Theme: Dark */
+[data-swiper-theme="dark"] {
+  --ls-bg: #0a0a0a;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(255, 255, 255, 0.15);
+  --ls-nav-bg-hover: rgba(255, 255, 255, 0.3);
+  --ls-nav-color: #ffffff;
+  --ls-dot-bg: rgba(255, 255, 255, 0.2);
+  --ls-dot-bg-hover: rgba(255, 255, 255, 0.4);
+  --ls-dot-bg-active: #ffffff;
+}

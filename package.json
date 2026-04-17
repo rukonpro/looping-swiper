@@ -1,37 +1,78 @@
 {
   "name": "looping-swiper",
-  "version": "1.0.0",
-  "description": "A circular, draggable, responsive swiper component for React + Next.js + TailwindCSS",
+  "version": "2.0.0",
+  "description": "A lightweight, themeable, infinite-looping swiper/carousel for React. 25 built-in themes, CSS Variables, zero dependencies.",
   "author": "MD. Rukon Uddin",
+  "license": "MIT",
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./styles.css": "./dist/styles.css",
+    "./themes.css": "./dist/themes.css",
+    "./themes/*.css": "./dist/themes/*.css"
+  },
   "files": [
     "dist"
   ],
+  "sideEffects": [
+    "**/*.css"
+  ],
   "scripts": {
-    "build": "tsc",
-    "prepare": "npm run build"
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepare": "npm run build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "peerDependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/react": "^8.6.14",
+    "@storybook/react-vite": "^8.6.14",
     "@types/react": "^19.1.15",
     "@types/react-dom": "^19.1.9",
-    "typescript": "^5.0.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "storybook": "^8.6.14",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   },
   "keywords": [
     "react",
     "swiper",
-    "tailwind",
+    "carousel",
+    "slider",
     "loop",
-    "circular"
+    "circular",
+    "infinite",
+    "draggable",
+    "touch",
+    "responsive",
+    "themes",
+    "css-variables",
+    "accessible"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/rukonpro/looping-swiper.git"
-  }
+  },
+  "homepage": "https://github.com/rukonpro/looping-swiper#readme",
+  "bugs": {
+    "url": "https://github.com/rukonpro/looping-swiper/issues"
+  },
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319"
 }

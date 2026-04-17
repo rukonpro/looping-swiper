@@ -1,0 +1,12 @@
+/* Theme: Sunset */
+[data-swiper-theme="sunset"] {
+  --ls-bg: #431407;
+  --ls-border-radius: 16px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(251, 146, 60, 0.35);
+  --ls-nav-bg-hover: rgba(251, 146, 60, 0.6);
+  --ls-nav-color: #fed7aa;
+  --ls-dot-bg: rgba(251, 146, 60, 0.25);
+  --ls-dot-bg-hover: rgba(251, 146, 60, 0.5);
+  --ls-dot-bg-active: #f97316;
+}

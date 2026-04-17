@@ -1,0 +1,13 @@
+/* Theme: Arctic */
+[data-swiper-theme="arctic"] {
+  --ls-bg: #f8fafc;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-border: 1px solid #e0f2fe;
+  --ls-nav-bg: rgba(56, 189, 248, 0.2);
+  --ls-nav-bg-hover: rgba(56, 189, 248, 0.4);
+  --ls-nav-color: #0284c7;
+  --ls-dot-bg: rgba(56, 189, 248, 0.2);
+  --ls-dot-bg-hover: rgba(56, 189, 248, 0.4);
+  --ls-dot-bg-active: #38bdf8;
+}

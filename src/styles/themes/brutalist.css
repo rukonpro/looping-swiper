@@ -1,0 +1,23 @@
+/* Theme: Brutalist */
+[data-swiper-theme="brutalist"] {
+  --ls-bg: #ffffff;
+  --ls-border: 3px solid #000000;
+  --ls-border-radius: 0;
+  --ls-padding: 8px;
+  --ls-shadow: 6px 6px 0 #000000;
+  --ls-nav-bg: #000000;
+  --ls-nav-bg-hover: #333333;
+  --ls-nav-color: #ffffff;
+  --ls-nav-border: 3px solid #000000;
+  --ls-nav-border-radius: 0;
+  --ls-nav-size: 40px;
+  --ls-nav-font-size: 22px;
+  --ls-nav-transition: none;
+  --ls-dot-bg: #000000;
+  --ls-dot-bg-hover: #333333;
+  --ls-dot-bg-active: #000000;
+  --ls-dot-border-radius: 0;
+  --ls-dot-size: 12px;
+  --ls-dot-active-width: 32px;
+  --ls-dot-transition: none;
+}

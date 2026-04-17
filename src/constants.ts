@@ -1,0 +1,40 @@
+import type { SwiperConfig, SwiperTheme } from "./types";
+
+export const DEFAULT_CONFIG: SwiperConfig = {
+  gap: 20,
+  infinite: false,
+  dragThreshold: 50,
+  transitionDuration: 300,
+  autoplay: false,
+  autoplayInterval: 3000,
+  pauseOnHover: true,
+  keyboardNavigation: true,
+};
+
+export const THEME_NAMES: SwiperTheme[] = [
+  "light",
+  "dark",
+  "midnight",
+  "ocean",
+  "sunset",
+  "forest",
+  "lavender",
+  "rose",
+  "slate",
+  "ember",
+  "arctic",
+  "neon",
+  "pastel",
+  "monochrome",
+  "cyberpunk",
+  "retro",
+  "minimal",
+  "glass",
+  "brutalist",
+  "candy",
+  "earth",
+  "sapphire",
+  "copper",
+  "aurora",
+  "storm",
+];

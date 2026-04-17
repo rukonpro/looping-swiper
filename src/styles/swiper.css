@@ -1,0 +1,222 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   looping-swiper — Base Styles + CSS Variable Contract
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── CSS Variable Defaults ────────────────────────────────────────────── */
+.ls-root {
+  /* Container */
+  --ls-bg: transparent;
+  --ls-border-radius: 0;
+  --ls-padding: 0;
+  --ls-shadow: none;
+  --ls-border: none;
+
+  /* Nav buttons */
+  --ls-nav-size: 36px;
+  --ls-nav-border-radius: 50%;
+  --ls-nav-bg: rgba(0, 0, 0, 0.45);
+  --ls-nav-bg-hover: rgba(0, 0, 0, 0.7);
+  --ls-nav-color: #ffffff;
+  --ls-nav-border: none;
+  --ls-nav-shadow: none;
+  --ls-nav-font-size: 18px;
+  --ls-nav-disabled-opacity: 0.3;
+  --ls-nav-offset: 8px;
+  --ls-nav-transition: opacity 0.2s, background-color 0.2s;
+
+  /* Dots */
+  --ls-dot-size: 8px;
+  --ls-dot-active-width: 24px;
+  --ls-dot-border-radius: 4px;
+  --ls-dot-bg: rgba(0, 0, 0, 0.25);
+  --ls-dot-bg-hover: rgba(0, 0, 0, 0.4);
+  --ls-dot-bg-active: rgba(0, 0, 0, 0.8);
+  --ls-dot-border: none;
+  --ls-dot-shadow: none;
+  --ls-dot-gap: 6px;
+  --ls-dot-margin-top: 12px;
+  --ls-dot-transition: all 0.3s ease;
+
+  /* Progress bar */
+  --ls-progress-height: 3px;
+  --ls-progress-bg: rgba(0, 0, 0, 0.1);
+  --ls-progress-fill: rgba(0, 0, 0, 0.6);
+  --ls-progress-border-radius: 2px;
+  --ls-progress-margin-top: 12px;
+  --ls-progress-transition: width 0.3s ease;
+
+  /* Fade */
+  --ls-fade-duration: 500ms;
+
+  /* Track */
+  --ls-transition-timing: ease-in-out;
+}
+
+/* ─── Structural Styles ────────────────────────────────────────────────── */
+.ls-root {
+  position: relative;
+  width: 100%;
+  background: var(--ls-bg);
+  border-radius: var(--ls-border-radius);
+  padding: var(--ls-padding);
+  box-shadow: var(--ls-shadow);
+  border: var(--ls-border);
+}
+
+.ls-viewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  outline: none;
+}
+
+.ls-track {
+  display: flex;
+  user-select: none;
+  cursor: grab;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.ls-track:active {
+  cursor: grabbing;
+}
+
+.ls-slide {
+  flex-shrink: 0;
+}
+
+/* ─── Fade Mode ────────────────────────────────────────────────────────── */
+.ls-track--fade {
+  position: relative;
+  cursor: default;
+  will-change: auto;
+}
+
+.ls-track--fade:active {
+  cursor: default;
+}
+
+.ls-track--fade .ls-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity var(--ls-fade-duration) ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ls-track--fade .ls-slide--active {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 1;
+}
+
+/* ─── Navigation Buttons ───────────────────────────────────────────────── */
+.ls-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--ls-nav-size);
+  height: var(--ls-nav-size);
+  border-radius: var(--ls-nav-border-radius);
+  border: var(--ls-nav-border);
+  background-color: var(--ls-nav-bg);
+  color: var(--ls-nav-color);
+  box-shadow: var(--ls-nav-shadow);
+  font-size: var(--ls-nav-font-size);
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: var(--ls-nav-transition);
+}
+
+.ls-nav-button:hover:not(:disabled) {
+  background-color: var(--ls-nav-bg-hover);
+}
+
+.ls-nav-button:disabled {
+  opacity: var(--ls-nav-disabled-opacity);
+  cursor: default;
+}
+
+.ls-nav-button--prev {
+  left: var(--ls-nav-offset);
+}
+
+.ls-nav-button--next {
+  right: var(--ls-nav-offset);
+}
+
+/* ─── Pagination Dots ──────────────────────────────────────────────────── */
+.ls-dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--ls-dot-gap);
+  padding-top: var(--ls-dot-margin-top);
+}
+
+.ls-dot {
+  height: var(--ls-dot-size);
+  width: var(--ls-dot-size);
+  border-radius: var(--ls-dot-border-radius);
+  border: var(--ls-dot-border);
+  padding: 0;
+  cursor: pointer;
+  background-color: var(--ls-dot-bg);
+  box-shadow: var(--ls-dot-shadow);
+  transition: var(--ls-dot-transition);
+}
+
+.ls-dot:hover {
+  background-color: var(--ls-dot-bg-hover);
+}
+
+.ls-dot--active {
+  width: var(--ls-dot-active-width);
+  background-color: var(--ls-dot-bg-active);
+}
+
+/* ─── Progress Bar ─────────────────────────────────────────────────────── */
+.ls-progress {
+  width: 100%;
+  height: var(--ls-progress-height);
+  background-color: var(--ls-progress-bg);
+  border-radius: var(--ls-progress-border-radius);
+  margin-top: var(--ls-progress-margin-top);
+  overflow: hidden;
+}
+
+.ls-progress-bar {
+  height: 100%;
+  background-color: var(--ls-progress-fill);
+  border-radius: var(--ls-progress-border-radius);
+  transition: var(--ls-progress-transition);
+}
+
+/* ─── Reduced Motion ───────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .ls-track {
+    transition: none !important;
+  }
+  .ls-track--fade .ls-slide {
+    transition: none !important;
+  }
+  .ls-dot {
+    transition: none !important;
+  }
+  .ls-nav-button {
+    transition: none !important;
+  }
+  .ls-progress-bar {
+    transition: none !important;
+  }
+}

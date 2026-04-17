@@ -1,0 +1,27 @@
+/* Theme: Glass */
+[data-swiper-theme="glass"] {
+  --ls-bg: rgba(255, 255, 255, 0.1);
+  --ls-border-radius: 16px;
+  --ls-padding: 14px;
+  --ls-border: 1px solid rgba(255, 255, 255, 0.2);
+  --ls-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --ls-nav-bg: rgba(255, 255, 255, 0.15);
+  --ls-nav-bg-hover: rgba(255, 255, 255, 0.3);
+  --ls-nav-color: rgba(255, 255, 255, 0.9);
+  --ls-nav-border: 1px solid rgba(255, 255, 255, 0.2);
+  --ls-nav-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --ls-dot-bg: rgba(255, 255, 255, 0.2);
+  --ls-dot-bg-hover: rgba(255, 255, 255, 0.4);
+  --ls-dot-bg-active: rgba(255, 255, 255, 0.8);
+}
+
+[data-swiper-theme="glass"] .ls-root,
+[data-swiper-theme="glass"].ls-root {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+[data-swiper-theme="glass"] .ls-nav-button {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}

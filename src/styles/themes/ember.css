@@ -1,0 +1,14 @@
+/* Theme: Ember */
+[data-swiper-theme="ember"] {
+  --ls-bg: #1c1917;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(249, 115, 22, 0.3);
+  --ls-nav-bg-hover: rgba(249, 115, 22, 0.55);
+  --ls-nav-color: #fdba74;
+  --ls-nav-shadow: 0 0 12px rgba(249, 115, 22, 0.3);
+  --ls-dot-bg: rgba(249, 115, 22, 0.2);
+  --ls-dot-bg-hover: rgba(249, 115, 22, 0.45);
+  --ls-dot-bg-active: #f97316;
+  --ls-dot-shadow: 0 0 8px rgba(249, 115, 22, 0.4);
+}

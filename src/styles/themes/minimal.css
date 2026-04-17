@@ -1,0 +1,15 @@
+/* Theme: Minimal */
+[data-swiper-theme="minimal"] {
+  --ls-bg: transparent;
+  --ls-nav-bg: transparent;
+  --ls-nav-bg-hover: rgba(0, 0, 0, 0.05);
+  --ls-nav-color: #a3a3a3;
+  --ls-nav-border: 1px solid #e5e5e5;
+  --ls-nav-size: 32px;
+  --ls-nav-font-size: 14px;
+  --ls-dot-size: 6px;
+  --ls-dot-active-width: 18px;
+  --ls-dot-bg: rgba(0, 0, 0, 0.1);
+  --ls-dot-bg-hover: rgba(0, 0, 0, 0.2);
+  --ls-dot-bg-active: rgba(0, 0, 0, 0.4);
+}

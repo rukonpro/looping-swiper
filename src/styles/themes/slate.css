@@ -1,0 +1,14 @@
+/* Theme: Slate */
+[data-swiper-theme="slate"] {
+  --ls-bg: #f1f5f9;
+  --ls-border-radius: 8px;
+  --ls-padding: 12px;
+  --ls-border: 1px solid #e2e8f0;
+  --ls-nav-bg: #475569;
+  --ls-nav-bg-hover: #334155;
+  --ls-nav-color: #ffffff;
+  --ls-nav-border-radius: 6px;
+  --ls-dot-bg: #cbd5e1;
+  --ls-dot-bg-hover: #94a3b8;
+  --ls-dot-bg-active: #475569;
+}

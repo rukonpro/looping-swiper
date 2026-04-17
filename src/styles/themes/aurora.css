@@ -1,0 +1,15 @@
+/* Theme: Aurora */
+[data-swiper-theme="aurora"] {
+  --ls-bg: #0c0a1a;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-shadow: 0 0 30px rgba(34, 197, 94, 0.1), 0 0 30px rgba(168, 85, 247, 0.1);
+  --ls-nav-bg: rgba(34, 197, 94, 0.2);
+  --ls-nav-bg-hover: rgba(168, 85, 247, 0.35);
+  --ls-nav-color: #86efac;
+  --ls-nav-shadow: 0 0 10px rgba(34, 197, 94, 0.3), 0 0 10px rgba(168, 85, 247, 0.2);
+  --ls-dot-bg: rgba(34, 197, 94, 0.2);
+  --ls-dot-bg-hover: rgba(168, 85, 247, 0.4);
+  --ls-dot-bg-active: #a855f7;
+  --ls-dot-shadow: 0 0 8px rgba(34, 197, 94, 0.4), 0 0 8px rgba(168, 85, 247, 0.4);
+}

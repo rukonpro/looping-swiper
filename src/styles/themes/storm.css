@@ -1,0 +1,15 @@
+/* Theme: Storm */
+[data-swiper-theme="storm"] {
+  --ls-bg: #1e293b;
+  --ls-border-radius: 8px;
+  --ls-padding: 12px;
+  --ls-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --ls-nav-bg: rgba(148, 163, 184, 0.2);
+  --ls-nav-bg-hover: rgba(148, 163, 184, 0.4);
+  --ls-nav-color: #e2e8f0;
+  --ls-nav-border-radius: 6px;
+  --ls-dot-bg: rgba(148, 163, 184, 0.2);
+  --ls-dot-bg-hover: rgba(148, 163, 184, 0.45);
+  --ls-dot-bg-active: #f1f5f9;
+  --ls-dot-shadow: 0 0 6px rgba(241, 245, 249, 0.3);
+}

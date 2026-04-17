@@ -1,0 +1,14 @@
+/* Theme: Sapphire */
+[data-swiper-theme="sapphire"] {
+  --ls-bg: #1e3a8a;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(59, 130, 246, 0.3);
+  --ls-nav-bg-hover: rgba(59, 130, 246, 0.55);
+  --ls-nav-color: #bfdbfe;
+  --ls-nav-shadow: 0 2px 8px rgba(30, 58, 138, 0.3);
+  --ls-dot-bg: rgba(59, 130, 246, 0.25);
+  --ls-dot-bg-hover: rgba(59, 130, 246, 0.5);
+  --ls-dot-bg-active: #3b82f6;
+  --ls-dot-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+}

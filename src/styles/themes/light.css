@@ -1,0 +1,9 @@
+/* Theme: Light (default) */
+[data-swiper-theme="light"] {
+  --ls-nav-bg: rgba(0, 0, 0, 0.45);
+  --ls-nav-bg-hover: rgba(0, 0, 0, 0.7);
+  --ls-nav-color: #ffffff;
+  --ls-dot-bg: rgba(0, 0, 0, 0.25);
+  --ls-dot-bg-hover: rgba(0, 0, 0, 0.4);
+  --ls-dot-bg-active: rgba(0, 0, 0, 0.8);
+}

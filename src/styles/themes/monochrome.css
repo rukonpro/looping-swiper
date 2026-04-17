@@ -1,0 +1,16 @@
+/* Theme: Monochrome */
+[data-swiper-theme="monochrome"] {
+  --ls-bg: #ffffff;
+  --ls-border: 2px solid #000000;
+  --ls-border-radius: 0;
+  --ls-padding: 12px;
+  --ls-nav-bg: #000000;
+  --ls-nav-bg-hover: #333333;
+  --ls-nav-color: #ffffff;
+  --ls-nav-border-radius: 0;
+  --ls-dot-bg: #d4d4d4;
+  --ls-dot-bg-hover: #737373;
+  --ls-dot-bg-active: #000000;
+  --ls-dot-border-radius: 0;
+  --ls-dot-active-width: 24px;
+}

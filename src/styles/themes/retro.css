@@ -1,0 +1,15 @@
+/* Theme: Retro */
+[data-swiper-theme="retro"] {
+  --ls-bg: #fef3c7;
+  --ls-border-radius: 8px;
+  --ls-padding: 12px;
+  --ls-border: 2px solid #92400e;
+  --ls-nav-bg: #92400e;
+  --ls-nav-bg-hover: #78350f;
+  --ls-nav-color: #fef3c7;
+  --ls-nav-border-radius: 50%;
+  --ls-dot-bg: #d6d3d1;
+  --ls-dot-bg-hover: #a8a29e;
+  --ls-dot-bg-active: #92400e;
+  --ls-dot-border-radius: 50%;
+}

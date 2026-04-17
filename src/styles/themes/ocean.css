@@ -1,0 +1,12 @@
+/* Theme: Ocean */
+[data-swiper-theme="ocean"] {
+  --ls-bg: #042f2e;
+  --ls-border-radius: 12px;
+  --ls-padding: 12px;
+  --ls-nav-bg: rgba(20, 184, 166, 0.3);
+  --ls-nav-bg-hover: rgba(20, 184, 166, 0.5);
+  --ls-nav-color: #5eead4;
+  --ls-dot-bg: rgba(20, 184, 166, 0.25);
+  --ls-dot-bg-hover: rgba(20, 184, 166, 0.45);
+  --ls-dot-bg-active: #14b8a6;
+}

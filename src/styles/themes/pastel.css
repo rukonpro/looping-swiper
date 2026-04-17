@@ -1,0 +1,14 @@
+/* Theme: Pastel */
+[data-swiper-theme="pastel"] {
+  --ls-bg: #fdf2f8;
+  --ls-border-radius: 20px;
+  --ls-padding: 14px;
+  --ls-nav-bg: rgba(196, 181, 253, 0.35);
+  --ls-nav-bg-hover: rgba(196, 181, 253, 0.55);
+  --ls-nav-color: #7c3aed;
+  --ls-nav-border-radius: 50%;
+  --ls-dot-bg: rgba(251, 207, 232, 0.6);
+  --ls-dot-bg-hover: rgba(196, 181, 253, 0.6);
+  --ls-dot-bg-active: #c4b5fd;
+  --ls-dot-border-radius: 50%;
+}

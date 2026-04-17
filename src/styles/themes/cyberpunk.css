@@ -1,0 +1,19 @@
+/* Theme: Cyberpunk */
+[data-swiper-theme="cyberpunk"] {
+  --ls-bg: #1a0533;
+  --ls-border-radius: 2px;
+  --ls-padding: 12px;
+  --ls-border: 1px solid #ff00ff;
+  --ls-shadow: 0 0 15px rgba(255, 0, 255, 0.2), inset 0 0 15px rgba(0, 255, 255, 0.05);
+  --ls-nav-bg: rgba(255, 0, 255, 0.25);
+  --ls-nav-bg-hover: rgba(0, 255, 255, 0.35);
+  --ls-nav-color: #00ffff;
+  --ls-nav-border: 1px solid #ff00ff;
+  --ls-nav-border-radius: 2px;
+  --ls-nav-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
+  --ls-dot-bg: rgba(255, 0, 255, 0.3);
+  --ls-dot-bg-hover: rgba(0, 255, 255, 0.5);
+  --ls-dot-bg-active: #00ffff;
+  --ls-dot-shadow: 0 0 6px rgba(0, 255, 255, 0.6);
+  --ls-dot-border-radius: 2px;
+}

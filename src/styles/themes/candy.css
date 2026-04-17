@@ -1,0 +1,19 @@
+/* Theme: Candy */
+[data-swiper-theme="candy"] {
+  --ls-bg: #fdf2f8;
+  --ls-border-radius: 24px;
+  --ls-padding: 14px;
+  --ls-shadow: 0 4px 20px rgba(236, 72, 153, 0.15);
+  --ls-nav-bg: #ec4899;
+  --ls-nav-bg-hover: #db2777;
+  --ls-nav-color: #ffffff;
+  --ls-nav-border-radius: 50%;
+  --ls-nav-size: 40px;
+  --ls-nav-shadow: 0 2px 8px rgba(236, 72, 153, 0.3);
+  --ls-dot-bg: #fbcfe8;
+  --ls-dot-bg-hover: #f9a8d4;
+  --ls-dot-bg-active: #ec4899;
+  --ls-dot-border-radius: 50%;
+  --ls-dot-size: 10px;
+  --ls-dot-active-width: 28px;
+}
